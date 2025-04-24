@@ -24,19 +24,38 @@ ul {
   text-transform: uppercase;
 }
 
-.logo-accent {
-  color: #f4f4fd;
+.nav__logo-accent {
+  color: #2e2f42;
 }
 
 .nav-link {
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
-.header__contacts {
-  font-style: inherit;
+.nav-link:hover,
+.nav-link:focus {
+  color:#404bbf;
 }
+
+.header__contacts {
+  font-style: normal;
+}
+
+.header__contacts-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.header__contacts-link:hover,
+.header__contacts-link:focus {
+  color: #404bbf;
+}
+
 
 .hero {
   background-color: #2e2f42;
@@ -70,6 +89,10 @@ ul {
 
 .footer {
   background-color: #2e2f42;
+}
+
+.footer__logo-accent {
+  color: #f4f4fd;
 }
 
 .footer__text {
