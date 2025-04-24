@@ -63,6 +63,9 @@ ul {
 
 .hero__title {
   font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 
@@ -72,9 +75,15 @@ ul {
   font-weight: 500;
   font-size: 16px;
   color: #ffffff;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
+.hero__button:hover,
+.hero__button:focus {
+  background-color: #404BBF;
+}
 
 .features__item-title {
   font-weight: 500;
