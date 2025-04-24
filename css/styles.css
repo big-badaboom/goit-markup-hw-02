@@ -1,0 +1,213 @@
+/* Reset and base styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* ================== Header ================== */
+.header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+  padding: 20px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  font-weight: 700;
+  color: #4d5ae5;
+  font-size: 24px;
+}
+
+.header__menu {
+  display: flex;
+  gap: 20px;
+}
+
+.header__menu-link {
+  color: #2e2f42;
+  font-weight: 500;
+}
+
+.header__contacts {
+  font-style: normal;
+}
+
+.header__contacts-link {
+  font-size: 14px;
+  color: #434455;
+}
+
+/* ================== Hero Section ================== */
+.hero {
+  background-color: #2e2f42;
+  color: #ffffff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero__title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero__button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero__button:hover {
+  background-color: #404bbf;
+}
+
+/* ================== Features ================== */
+.features {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.features__title {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.features__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.features__item {
+  max-width: 300px;
+}
+
+.features__item-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.features__item-text {
+  font-size: 14px;
+}
+
+/* ================== Team ================== */
+.team {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.team__title {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.team__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.team__item {
+  max-width: 264px;
+}
+
+.team__photo {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.team__name {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 10px 0 5px;
+}
+
+.team__role {
+  font-size: 14px;
+  color: #434455;
+}
+
+/* ================== Portfolio ================== */
+.portfolio {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.portfolio__title {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.portfolio__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.portfolio__item {
+  max-width: 360px;
+}
+
+.portfolio__image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.portfolio__item-title {
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+
+.portfolio__item-text {
+  font-size: 14px;
+  color: #434455;
+}
+
+/* ================== Footer ================== */
+.footer {
+  background-color: #2e2f42;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer__logo {
+  font-weight: bold;
+  color: #4d5ae5;
+  font-size: 24px;
+}
+
+.footer__text {
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 1.5;
+}
