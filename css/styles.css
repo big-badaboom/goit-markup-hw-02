@@ -30,23 +30,8 @@ ul {
   color: #2e2f42;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #404bbf;
-}
-
-.contacts {
-  font-style: normal;
-}
-
-.contacts__link {
-  font-size: 16px;
-  color: #434455;
-}
-
-.contacts__link:hover,
-.contacts__link:focus {
-  color: #404bbf;
+.header__contacts {
+  font-style: inherit;
 }
 
 .hero {
@@ -67,10 +52,6 @@ ul {
   cursor: pointer;
 }
 
-.hero__button:hover,
-.hero__button:focus {
-  background-color: #404bbf;
-}
 
 .features__item-title {
   font-weight: 500;
